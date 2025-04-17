@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{6628391f-4c9c-4e0a-8c4a-e5d9c06f2f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a9c2cf8f-3a8a-4125-9d51-577d320672e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Factory">
+      <UniqueIdentifier>{8801be49-44a9-4d53-87ca-1c17be98285e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game">
+      <UniqueIdentifier>{b96a6578-7401-4467-a627-d200b6ca4ad3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\CG4.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Factory\SceneFactory.h">
+      <Filter>Scene\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\GameScene.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Framework\CG4.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Factory\SceneFactory.cpp">
+      <Filter>Scene\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\GameScene.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
