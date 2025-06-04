@@ -10,8 +10,8 @@
     <Filter Include="Scene\Factory">
       <UniqueIdentifier>{8801be49-44a9-4d53-87ca-1c17be98285e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Scene\Game">
-      <UniqueIdentifier>{b96a6578-7401-4467-a627-d200b6ca4ad3}</UniqueIdentifier>
+    <Filter Include="Scene\CG4Task1">
+      <UniqueIdentifier>{cfe8bb62-b242-48f6-859a-49bda003e19c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -21,8 +21,8 @@
     <ClInclude Include="Scene\Factory\SceneFactory.h">
       <Filter>Scene\Factory</Filter>
     </ClInclude>
-    <ClInclude Include="Scene\Game\GameScene.h">
-      <Filter>Scene\Game</Filter>
+    <ClInclude Include="Scene\CG4Task1\CG4Task1.h">
+      <Filter>Scene\CG4Task1</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -33,8 +33,8 @@
     <ClCompile Include="Scene\Factory\SceneFactory.cpp">
       <Filter>Scene\Factory</Filter>
     </ClCompile>
-    <ClCompile Include="Scene\Game\GameScene.cpp">
-      <Filter>Scene\Game</Filter>
+    <ClCompile Include="Scene\CG4Task1\CG4Task1.cpp">
+      <Filter>Scene\CG4Task1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

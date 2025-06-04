@@ -1,6 +1,6 @@
 #include "SceneFactory.h"
 
-#include <Scene/Game/GameScene.h>
+#include <Scene/CG4Task1/CG4Task1.h>
 
 #include <cassert>
 
@@ -8,7 +8,7 @@
 
 std::unique_ptr<IScene> SceneFactory::CreateScene(const std::string & _sceneName)
 {
-    JUDGE_SCENE(GameScene)
+    JUDGE_SCENE(CG4Task1)
 
     assert(false && "シーンの生成に失敗しました");
 

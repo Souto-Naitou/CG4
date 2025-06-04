@@ -13,8 +13,6 @@ public:
 
     void Draw() override;
 
-    void DrawHighPerformance() override;
-
     bool IsExitProgram()
     {
         return isExitProgram_;

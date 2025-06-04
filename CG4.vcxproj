@@ -172,13 +172,13 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
   <ItemGroup>
     <ClCompile Include="Framework\CG4.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene\CG4Task1\CG4Task1.cpp" />
     <ClCompile Include="Scene\Factory\SceneFactory.cpp" />
-    <ClCompile Include="Scene\Game\GameScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\CG4.h" />
+    <ClInclude Include="Scene\CG4Task1\CG4Task1.h" />
     <ClInclude Include="Scene\Factory\SceneFactory.h" />
-    <ClInclude Include="Scene\Game\GameScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
